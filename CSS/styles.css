@@ -3,6 +3,7 @@ body{
     margin:0;
     overflow-x: hidden;
 }
+
 .menu_ul{
     float:right;/*Make the menu appear on the right of the website*/
     list-style-type:none;
@@ -67,9 +68,9 @@ h1{
 
 .about_us_container{
     position: absolute;
-    text-align: left;
     left:32%;
-    transform:translate(-50,-50);
+    transform:translate(11%,4%);
+    font-size: 20px;
 }
 
 .meet_staff_button:hover{
@@ -127,4 +128,109 @@ h1{
 .faq_ul li:hover {
     background-color: #555;
     color: white;
+  }
+
+.faq_home_text{
+    position: fixed; top: 50%; left: -1%; font-size: 30px; color: azure; text-decoration: none; padding: 50px;
+}
+.faq_home_questions{
+    position: fixed; top: 55%; left: -1%; font-size: 30px; color: azure; text-decoration: none; padding: 50px;
+}
+.logo {
+    margin: 3px;
+}
+
+.logo_mini{
+    margin: 3px;
+}
+.banner{
+    width:111%; height:200px;
+}
+#dadwithbuilding{
+    position:absolute; bottom: 21%; right: 108%; width: 500px;
+}
+#dad_picture{
+    position: absolute; top:10px; left: 1200px; width:300px; height:300px;
+}
+.dad_desc{
+    display: none; position: relative; top: 210px;left: 550px; width: 580px;
+}
+#collegue_picture1{
+    position: absolute; top: 902px; left: 1200px; width:300px; height:300px
+}
+.collegue_desc1{
+    display: none; position:relative; top: 584px; left: 550px; width: 600px;
+}
+.staff_page_div1{
+    position: relative;
+}
+.staff_page_div2{
+    position:relative; top: -530px;
+}
+
+/*Responsive Web design - Media Queries, source: https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 10px;
+    }
+    head {
+        font-size: 10px;
+    }
+    .faq_home_text{
+        font-size: 10px;
+    }
+    .faq_home_questions{
+        font-size: 10px;
+    }
+    .logo{
+        margin: 3px; position: absolute;
+        top: 0px;
+    }
+    .logo_mini{
+        margin: 3px; position: absolute;
+        top: 25px;
+    }
+    .about_us_container{
+        font-size: 10px;
+        left: 0%;
+    }
+    #dadwithbuilding{
+        width: 312px;
+        bottom:-86%;
+        right: 17%;
+    }
+    .staff_page_div1{
+        left:-87%;
+    }
+    #dad_picture{
+        left: 782px;
+        width: 200px;
+        height: 200px;
+    }
+    .dad_desc{
+        top: 225px;
+        left: 63px;
+    }
+    .staff_page_div2{
+        left:-87%;
+    }
+    #collegue_picture1{
+        left: 782px;
+        width: 200px;
+        height: 200px;
+    }
+    .collegue_desc1{
+        left: 63px;
+        width: 340px;
+    }
+    .faq_ul{
+        font-size: 10px;
+        width: 368px;
+    }
+    .dropdown-content{
+        width:340px;
+    }
+    .faq_ul li p{
+        width: 300px;
+    }
   }
