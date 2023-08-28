@@ -233,4 +233,7 @@ h1{
     .faq_ul li p{
         width: 300px;
     }
+    .mapouter{
+        position:absolute;left:22%;text-align:center;height:50%;width:50%; margin: 0;
+    }
   }
