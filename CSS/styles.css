@@ -162,12 +162,78 @@ h1{
     display: none; position:relative; top: 584px; left: 550px; width: 600px;
 }
 .staff_page_div1{
-    position: relative;
+    position: relative; 
 }
 .staff_page_div2{
-    position:relative; top: -530px;
+    position:relative; top: -530px; 
 }
 
+
+@media only screen and (max-width: 1600px) {
+    .staff_page_div1{
+        left:-337px;
+        position: relative;
+    }
+    .staff_page_div2{
+        left: -337px;
+        position: relative;
+        top: -530px;
+    }
+    #dad_picture{
+        left: 860px;
+        width: 200px;
+        height: 200px;
+    }
+    .dad_desc{
+        top: 269px;
+        left: 50px;
+        width: 580px;
+        position: relative;
+    }
+    #collegue_picture1{
+        left: 860px;
+        width: 200px;
+        height: 200px;
+    }
+    .collegue_desc1{
+        left: 50px;
+        width: 340px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .staff_page_div1{
+        left:-341px;
+        position: relative;
+    }
+    .staff_page_div2{
+        left: -341px;
+        position: relative;
+        top: -530px;
+    }
+    #dad_picture{
+        left: 808px;
+        width: 200px;
+        height: 200px;
+    }
+    .dad_desc{
+        top: 210px;
+        left: 178px;
+        width: 580px;
+        position: relative;
+    }
+    #staff_desc2{
+        left: 44px;
+        width: 600px;
+        position: relative;
+        top: 584px;
+    }
+    #collegue_picture1{
+        left: 808px;
+        width: 200px;
+        height: 200px;
+    }
+}
 /*Responsive Web design - Media Queries, source: https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
 @media only screen and (max-width: 600px) {
     body {
@@ -200,7 +266,8 @@ h1{
         right: 17%;
     }
     .staff_page_div1{
-        left:-87%;
+        left:-458px;
+        position: relative;
     }
     #dad_picture{
         left: 782px;
@@ -212,7 +279,9 @@ h1{
         left: 63px;
     }
     .staff_page_div2{
-        left:-87%;
+        left: -458px;
+        position: relative;
+        top: -530px;
     }
     #collegue_picture1{
         left: 782px;
@@ -234,6 +303,6 @@ h1{
         width: 300px;
     }
     .mapouter{
-        position:absolute;left:22%;text-align:center;height:50%;width:50%; margin: 0;
+        position:absolute;text-align:center;height:400px;width:max-content; margin: 0;
     }
   }
